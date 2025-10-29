@@ -20,7 +20,7 @@ In order to successfully run the replicability package you need:
 - make (not necessarily GNU make);
 - a Java Development Kit version 8 must be in the path (note that a version different from 8, either superior or inferior, will not work); For Linux systems you can use Eclipse Temurim from [Adoptium](https://adoptium.net/); For macOS systems you can use the JDK Zulu distribution from [Azul](https://www.azul.com/downloads/?package=jdk#zulu);
 - [Apache Maven](https://maven.apache.org/);
-- a recent version of [Z3](https://github.com/Z3Prover/z3), preferrabily version 4.8.9 (see section "Degree of replicability" below);
+- a recent version of [Z3](https://github.com/Z3Prover/z3), preferrably version 4.8.9 (see section "Degree of replicability" below);
 - [R](https://www.r-project.org/).
 
 ## Setup
