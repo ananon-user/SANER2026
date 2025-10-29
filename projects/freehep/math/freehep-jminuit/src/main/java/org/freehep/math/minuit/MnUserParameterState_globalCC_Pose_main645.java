@@ -1,0 +1,14 @@
+package org.freehep.math.minuit;
+
+import jbse2.meta.Analysis;
+
+public class MnUserParameterState_globalCC_Pose_main645 {
+
+    public static void main(String[] args) throws Exception {
+        try {
+            MnUserParameterState mnuserparameterstate_LTA = Analysis.newSymbolObject("mnuserparameterstate_LTA", MnUserParameterState.class);
+            mnuserparameterstate_LTA.globalCC();
+        } catch (Exception e) {
+        }
+    }
+}
