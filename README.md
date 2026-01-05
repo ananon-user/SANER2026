@@ -47,7 +47,7 @@ Launching the experiments should therefore be just a matter of:
     $ cd /home/myself/SANER2026
     $ make all
 
-Be warned: because of the size of the benchmark (and of the state space of some methods in it) running all the experiments will require a *lot* of time---up to two weeks in our experience. To speed the things up a little bit you can tweak the value of the PROCESSES variable in the Makefile (number of methods that are symbolically executed in a concurrent process) and increase it, based on the number of CPUs on your machine, but consider that this might jeopardize replicability (see the next section for more information).
+Be warned: because of the size of the benchmark (and of the state space of some methods in it) running all the experiments will require a *lot* of time---up to two weeks with our setup. To speed the things up a little bit you can tweak the value of the PROCESSES variable in the Makefile (number of methods that are symbolically executed in a concurrent process) and increase it, based on the number of CPUs on your machine, but consider that this might jeopardize replicability (see the next section for more information).
 
 To be sure that everything works do *not* rely on the console output: It will contain lots of warnings, log messages, and even exception stack traces, that cannot be easily interpreted. Rather, check whether you find a file named POSE_SymbolicRunStats.csv in /home/myself/SANER2026, and whether this file grows in time. 
 
